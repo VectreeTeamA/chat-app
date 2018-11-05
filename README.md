@@ -1,2 +1,2 @@
 # chat-app
-Created within socket.io quick-start tutorial
+Created using React within [socket.io](https://socket.io/get-started/chat/) quick-start tutorial
