@@ -1,2 +1,1 @@
-# chat-app
-Created using React within [socket.io](https://socket.io/get-started/chat/) quick-start tutorial
+![ChatterDEMO](https://i.imgur.com/rdjU90c.png)
