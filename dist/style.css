@@ -2343,32 +2343,22 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   width: 100%;
-  margin: 0px;
-  padding: 0px; }
+  margin: 0;
+  padding: 0; }
 
 #root {
   position: relative;
   height: 100%;
   width: 100%;
   padding-top: 56px; }
-  #root .enter-chat {
-    display: block;
-    position: relative;
-    height: 100%;
-    width: 100%; }
   #root .chat {
     display: block;
     position: relative;
     height: 100%;
     width: 100%; }
-    #root .chat .users, #root .chat .messages {
+    #root .chat .messages {
       padding: 0px;
       float: left; }
-    #root .chat .users .user {
-      border-bottom: 1px solid #e9ebee;
-      padding: 10px; }
-      #root .chat .users .user .fa-user {
-        color: #343a40; }
     #root .chat .messages {
       border-left: 1px solid #e9ebee;
       overflow: auto; }
@@ -2378,51 +2368,16 @@ html, body {
         min-height: 50px;
         height: auto !important;
         clear: both; }
-        #root .chat .messages .message .username, #root .chat .messages .message .data {
+        #root .chat .messages .message .data {
           display: inline-block;
           float: left;
           margin-right: 10px; }
       #root .chat .messages .no-message {
         margin: 10px; }
-    #root .chat .chatbox, #root .chat .gifbox {
+    #root .chat .chatbox {
       position: fixed;
       bottom: 0px;
       padding: 0px; }
-    #root .chat .gifbox {
-      height: 200px;
-      width: 100%;
-      border-left: 1px solid #e9ebee; }
-      #root .chat .gifbox .input-group {
-        padding: 0px; }
-      #root .chat .gifbox .gifs {
-        height: 160px !important;
-        overflow-y: scroll;
-        padding: 5px; }
-        #root .chat .gifbox .gifs .gif {
-          position: relative;
-          display: inline-block;
-          float: left;
-          margin-right: 5px;
-          padding-bottom: 5px; }
-          #root .chat .gifbox .gifs .gif:hover .share {
-            display: block; }
-          #root .chat .gifbox .gifs .gif .share {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            margin: auto;
-            height: 30px;
-            width: 30px;
-            font-size: 30px;
-            cursor: pointer;
-            color: white;
-            display: none; }
-        #root .chat .gifbox .gifs .searching {
-          display: block;
-          color: grey;
-          font-size: 18px; }
 
 
 /*# sourceMappingURL=style.css.map*/

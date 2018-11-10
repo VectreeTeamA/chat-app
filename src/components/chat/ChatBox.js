@@ -18,29 +18,18 @@ class ChatBox extends React.Component{
         if (e.key === 'Enter') {
             if(this.state.message.length){
                 this.props.sendMessage({
-                    type : 'message',
                     text : this.state.message
                 });
                 this.setState({message : ''});
-            }else{
+            } else{
                 alert('Please enter a message');
             }
         }
     }
 
-
     render(){
         return (
             <div className="input-group chatbox col-xs-12 col-sm-12 col-md-8 col-lg-10">
-                <div className="input-group-prepend">
-                    <button
-                        className="btn btn-outline-secondary"
-                        type="button"
-                        onClick={this.props.toggleGif}
-                    >
-                        <i className="fa fa-image"/> GIF
-                    </button>
-                </div>
                 <input
                     className="form-control"
                     placeholder="Type message"
